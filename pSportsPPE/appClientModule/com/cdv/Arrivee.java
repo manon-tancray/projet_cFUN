@@ -4,6 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
+//test
 public class Arrivee {
 	private static int numeroSortie = 0;
 	private int numeroArrivee;
