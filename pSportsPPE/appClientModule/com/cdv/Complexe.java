@@ -47,7 +47,7 @@ public class Complexe {
 				ok = true;
 			}
 		} else {
-			if (this.etatMuscu() != 1.0) {
+			if (this.etatMuscu() <= 75) {
 				Complexe.setNumeroActuel();
 				uneArrivee.setNumeroArrivee(Complexe.getNumeroActuel());
 				lesArrivees.add(uneArrivee);
@@ -93,7 +93,7 @@ public class Complexe {
 		final String MSGDISPMUSCU = "Places disponibles M : ";
 		final String MSGDISPFIT = "Places disponibles F : ";
 		final String MSGOCCMUSCU = "Places occupées M : ";
-		final String MSGOCCFIT = "Places occup�es F : ";
+		final String MSGOCCFIT = "Places occupées F : ";
 		final String MSGTXMUSCU = "Taux occ. M : ";
 		final String MSGTXFIT = "Taux occ. F : ";
 		final String MSGCOULMUSCU = "Couleur M : ";
